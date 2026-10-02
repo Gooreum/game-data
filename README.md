@@ -2,7 +2,7 @@
 
 게임 데이터 백업용 private 레포.
 
-`game-data.zip`(약 1GB)은 git 파일 크기 제한(100MB) 때문에 Releases 첨부파일로 보관한다.
+`game-data.zip`(약 1.8GB)은 git 파일 크기 제한(100MB) 때문에 Releases 첨부파일로 보관한다.
 따라서 `git clone`으로는 받아지지 않는다.
 
 ## 다운로드 방법
@@ -37,7 +37,7 @@ unzip game-data.zip
 
 ## 무결성 확인
 
-파일 크기가 1,068,266,921바이트인지 확인한다.
+파일 크기가 1,781,317,023바이트인지 확인한다.
 
 ```bash
 stat -f "%z" game-data.zip   # macOS
